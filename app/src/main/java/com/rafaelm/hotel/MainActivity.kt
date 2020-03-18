@@ -20,7 +20,11 @@ class MainActivity : AppCompatActivity(), HotelListFragment.OnHotelClickListener
         }
     }
 
+<<<<<<< Updated upstream
     // private fun isTablet() = findViewById<View>(R.id.details) != null
+=======
+   // private fun isTablet() = findViewById<View>(R.id.details) != null
+>>>>>>> Stashed changes
 
     private fun showDetailsFragment(hotelId: Long) {
         val fragment = HotelDetailsFragment.newInstance(hotelId)
